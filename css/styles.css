@@ -59,6 +59,7 @@ main {
 
 h1 {
   font-size: 30px;
+  text-align: center;
 
 }
 
@@ -116,7 +117,7 @@ button:focus,
 
 .button__secondary {
   background-color: var(--color-secondary);
-  color: black;
+  margin-top: 5px;
 }
 
 .profile__portrait {
@@ -208,3 +209,23 @@ button:focus,
 .cloud-back {
   animation: 34s cloud-move-reverse infinite alternate linear;
 }
+
+#contact-form {
+  background-color: var(--color-primary);
+  padding: 20px;
+  color: white;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  min-width: 50%;
+  max-width: 80%;
+}
+
+#contact-form .{
+  margin: 3px;
+  width: 10%;
+  
+}
+
+
