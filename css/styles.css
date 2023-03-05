@@ -91,6 +91,7 @@ a:active {
 }
 textarea{
   height: 80px;
+  resize: none;
 }
 
 li {
@@ -166,10 +167,20 @@ button:focus,
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 20px;
+  max-width: 80%;
+  margin: 0 auto;
 }
 
 .grid__item {
-  background-color: var(--color-primary);
+  background-color: var(--color-primary-dark);
+  color: white;
+  border-radius: 10px;
+  padding: 15px;
+
+}
+.grid__item a {
+  color: rgb(176, 237, 219);
+
 }
 
 @media all and (max-width: 500px) {
