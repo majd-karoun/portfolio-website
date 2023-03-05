@@ -136,6 +136,7 @@ button:focus,
   display: flex;
   flex-direction: column;
   text-align: center;
+ 
 }
 
 .profile {
@@ -246,12 +247,18 @@ button:focus,
   margin-right: 20px;
 }
 
+#contact-form input, textarea{
+  border-radius: 5px;
+  border: none;
+}
+
 
 
 .container-row-responsive{
   display: flex;
   align-items: center;
   justify-content: center;
+ 
 }
 
 @media screen and (max-width: 700px) {
