@@ -145,8 +145,10 @@ button:focus,
 
 .page-header {
   display: flex;
+  align-items: center;
   width: 100%;
   padding: 20px;
+  border-bottom: var(--color-primary) 5px solid;
 }
 
 .page-header__item {
