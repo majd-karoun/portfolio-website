@@ -89,6 +89,9 @@ a:visited {
 a:active {
   color: var(--color-primary-dark);
 }
+textarea{
+  height: 80px;
+}
 
 li {
   list-style: none;
@@ -217,11 +220,22 @@ button:focus,
   border-radius: 5px;
   display: flex;
   flex-direction: column;
-  margin: 0 auto;
-  min-width: 50%;
-  max-width: 80%;
+  min-width: 400px;
+  max-width: 50%;
+  margin-right: 20px;
 }
 
-.contact-info{
-  margin-left: 10%;
+
+
+.container-row-responsive{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 700px) {
+  .container-row-responsive{
+    flex-direction: column;
+  }
+  
 }

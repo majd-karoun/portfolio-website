@@ -4,63 +4,77 @@
     <meta charset="utf-8" />
     <title>Contact Majd Karoun</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
   <body class="contact-page">
     <header class="page-header">
       <h2>Majd Karoun</h2>
-   <nav class="page-header__item">
-     <ul role="menubar" class="navigation-list">
-       <li role="presentation">
-         <a href="index.html" role="menuitem" class="navigation-list__item navigation-list__item--active">Home</a>
-       </li>
-       <li role="presentation">
-         <a href="about.html" role="menuitem" class="navigation-list__item">About</a>
-     </li>
-     <li role="presentation">
-       <a href="work.html" role="menuitem" class="navigation-list__item">Work</a>
-     </li>
-       <li role="presentation">
-         <a href="contact.html" role="menuitem" class="navigation-list__item">Contact</a>
-       </li>
-     </ul>
-   </nav>
- </header>
+      <nav class="page-header__item">
+        <ul role="menubar" class="navigation-list">
+          <li role="presentation">
+            <a
+              href="index.html"
+              role="menuitem"
+              class="navigation-list__item navigation-list__item--active"
+              >Home</a
+            >
+          </li>
+          <li role="presentation">
+            <a href="about.html" role="menuitem" class="navigation-list__item"
+              >About</a
+            >
+          </li>
+          <li role="presentation">
+            <a href="work.html" role="menuitem" class="navigation-list__item"
+              >Work</a
+            >
+          </li>
+          <li role="presentation">
+            <a href="contact.html" role="menuitem" class="navigation-list__item"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
 
     <h1>Contact</h1>
+    <div class="container-row-responsive">
+      <form action="" method="post" id="contact-form">
+        <label class="standard-label" for="contact-email">Email: </label>
+        <input type="email" id="contact-email" required />
 
-    <form action="" method="post" id="contact-form">
-      <label class="standard-label" for="contact-email">Email: </label>
-      <input type="email" id="contact-email" required>
-    
-      <label class="standard-label" for="contact-telephone">Telephone: </label>
-      <input type="number" pattern="\d{3}[\-]\d{3}[\-]\d{4}" id="contact-telephone">
-    
-      <label class="standard-label" for="contact-message">Message: </label>
-      <textarea id="contact-message"
-      required maxlength="240"></textarea>
-      <input type="submit" value="Send message" class="button__secondary">
-    </form>
+        <label class="standard-label" for="contact-telephone"
+          >Telephone:
+        </label>
+        <input
+          type="number"
+          pattern="\d{3}[\-]\d{3}[\-]\d{4}"
+          id="contact-telephone" />
 
-    <div class="contact-info">
-      Bremer str. 211<br />
-      26389 Wilhelmshaven<br />
-      Deutschland<br />
-      <br />
-   
-      Tel +49 17680251794<br />
-      <a href="mailto:majd.karoun@gmail.com">majd.karoun@gmail.com</a>
-    
+        <label class="standard-label" for="contact-message">Message: </label>
+        <textarea id="contact-message" required maxlength="240"></textarea>
+        <input type="submit" value="Send message" class="button__secondary" />
+      </form>
 
-    
+      <div class="contact-info">
+        Bremer str. 211<br />
+        26389 Wilhelmshaven<br />
+        Deutschland<br />
+        <br />
 
+        Tel +49 17680251794<br />
+        <a href="mailto:majd.karoun@gmail.com">majd.karoun@gmail.com</a>
 
-     
-    <br />
-    <a href="mailto:majd.karoun@gmail.com">Contact me</a>
-  </div>
+        <br />
+        <a href="mailto:majd.karoun@gmail.com">Contact me</a>
+      </div>
+    </div>
     <script src="js/tota11y.min.js"></script>
   </body>
 </html>
