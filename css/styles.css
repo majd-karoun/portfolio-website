@@ -222,10 +222,6 @@ button:focus,
   max-width: 80%;
 }
 
-#contact-form .{
-  margin: 3px;
-  width: 10%;
-  
+.contact-info{
+  margin-left: 10%;
 }
-
-
